@@ -1,0 +1,312 @@
+body {
+    background-image: url('back.JPG'); /* حطي اسم صورتك هنا */
+    background-size: cover;          /* تخلي الصورة تغطي الشاشة بالكامل وبشكل متناسق بدون ما تنمط بشكل خاطئ */
+    background-position: center;     /* تثبت الصورة وتخليها في منتصف الشاشة دائماً */
+    background-repeat: no-repeat;    /* تمنع تكرار الصورة جنب بعض */
+    height: 290vh;                   /* تجعل ارتفاع الصفحة مطابقاً لارتفاع شاشة الجوال بالكامل */
+    margin: 0;                       /* تشيل الهوامش البيضاء الزائدة */
+}
+
+.content {
+    position: relative; /* تخلي أي شيء جواها يتحرك بالنسبة لها مو بالنسبة للصفحة كلها */
+    width: 100%;
+    height: 100vh;
+}
+
+.one {
+    position: relative;
+    width: 100%;
+    max-width: 450px; /* يثبت العرض حتى على اللابتوب عشان ما يتمدد بشكل مزعج ويفضل نفس شكل الجوال! */
+    margin: 0 auto;   /* يسنتر القسم كله في نص الشاشة تماماً على أي جهاز */
+    height: 450px;    /* ارتفاع محدد لهذا القسم */
+}
+
+.a {
+     font-family: "Aref Ruqaa", serif;
+    position: absolute;
+left: 27%;
+top: 3%;
+    width: 60%;
+    transform: translateX(5%);
+    font-size: 95%;
+    color: hsl(234, 49%, 24%);
+}
+
+.open {
+top: 14%;
+width: 89%;
+left: 0%;
+    position: absolute;
+}
+.music {
+position: absolute;
+top: 21%;
+width: 50%;
+left: 19%;
+}
+.darf {
+    position: absolute;
+    width: 59%;
+    top: 29%; 
+    left: 15%;
+}
+.bocket {
+    position: absolute;
+    top: 18%;
+    width: 40%;
+    left: 0%;
+}
+.gold {
+    position: absolute;
+    top: 48%;
+    width: 13%;
+    left: 37%;
+}
+
+
+.too {
+    position: relative;
+    width: 100%;
+    max-width: 450px; /* يثبت العرض حتى على اللابتوب عشان ما يتمدد بشكل مزعج ويفضل نفس شكل الجوال! */
+    margin: 0 auto;   /* يسنتر القسم كله في نص الشاشة تماماً على أي جهاز */
+    height: 300px;    /* ارتفاع محدد لهذا القسم */
+}
+
+.poster {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    block-size: 170%;
+}
+.b {
+    position: absolute;
+    top: 60%;
+  font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: rgb(255, 248, 248);
+    line-height: 25px;
+    width: 180px;
+    left: 20%;
+    font-size: 20px;
+}
+.flo {
+    position: absolute;
+    top: 137%;
+    width: 85%;
+    left: 2%;
+}
+.countdown-container {
+    position: absolute;
+    top: 170%;
+    left: 6%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.time-box {
+  color: hsl(234, 49%, 24%);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+.time-box span {
+  font-size: 200%;
+  font-weight: bold;
+  display: block;
+}
+.time-box p {
+  font-size: 13px;
+  color: hsl(234, 49%, 24%);
+}
+
+
+.three {
+    position: relative;
+    width: 100%;
+    max-width: 450px; /* يثبت العرض حتى على اللابتوب عشان ما يتمدد بشكل مزعج ويفضل نفس شكل الجوال! */
+    margin: 0 auto;   /* يسنتر القسم كله في نص الشاشة تماماً على أي جهاز */
+    height: 300px;    /* ارتفاع محدد لهذا القسم */
+}
+.date {
+    position: absolute;
+    top: 150%;
+    width: 30%;
+    left: 5%;
+}
+.hdor {
+    position: absolute;
+    background-color: hsl(233, 62%, 16%);
+    border-radius: 10px;
+    top: 231%;
+    left: 35%;
+    width: 48%;
+    height: 70%;
+}
+.golden {
+    position: absolute;
+    top: 161%;
+width: 25%;
+left: 24%;
+filter: drop-shadow(0px 0px 7px hsl(38, 77%, 28%));
+}
+.name {
+    position: absolute;
+    top: 235%;
+    left: 42%;
+    width: 38%;
+    border-radius: 5px;
+    border: none;
+text-align: right;
+font-size: 20px;
+font-family: "Aref Ruqaa", serif;
+color: hsl(38, 78%, 33%);
+}
+.name:hover {
+    background-color: hsl(0, 2%, 90%);
+}
+.name-tow:hover {
+    background-color: hsl(0, 2%, 90%);
+}
+.name-tow {
+     position: absolute;
+     left: 42%;
+     width: 38%;
+    top: 245%;
+    border-radius: 5px;
+    border: none;
+font-size: 20px;
+text-align: right;
+font-family: "Aref Ruqaa", serif;
+color: hsl(38, 78%, 33%);
+}
+.gh {
+    position: absolute;
+    top: 256%;
+    left: 54%;
+    color: rgb(255, 249, 249);
+    font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
+}
+.c {
+    position: absolute;
+    top: 270%;
+    left: 54%;
+    border: none;
+    color: white;
+    background-color: hsl(233, 62%, 16%);
+    box-shadow: 1px 1px 2px hsl(38, 78%, 33%);
+    font-size: 80%;
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
+}
+
+.attendance-container {
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+}
+.radio-option input[type="radio"] {
+    display: none;
+}
+.option input[type="radio"] {
+    display: none;
+}
+.radio-option {
+    position: absolute;
+    top: 140%;
+    height: 1px;
+width: 130px;
+border-radius: 5px;
+text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    background-color:hsl(234, 49%, 24%);
+color: white;
+font-size: 12px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.option {
+    position: absolute;
+    top: 140%;
+    height: 1px;
+width: 130px;
+border-radius: 5px;
+text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    background-color:hsl(234, 49%, 24%);
+color: white;
+font-size: 12px;
+padding-bottom: 15px;
+}
+.radio-option:has(input[type="radio"]:checked) {
+background-color:hsl(38, 78%, 33%);
+color: white;
+border-color:blue;
+}
+.option:has(input[type="radio"]:checked) {
+background-color:hsl(38, 78%, 33%);
+color: white;
+border-color:blue;
+}
+
+button {
+    position: absolute;
+    top: 286%;
+    left: 46%;
+border: none;
+border-radius: 3px;
+height: 10%;
+width: 23%;
+font-size: 19px;
+background-color:hsl(38, 78%, 33%);
+color: white;
+box-shadow: 0px 1px 15px hsl(38, 78%, 33%);
+}
+button:active {
+    box-shadow: none;
+background-color:hsl(38, 77%, 28%);
+}
+
+
+.four {
+    position: relative;
+    width: 100%;
+    max-width: 450px; /* يثبت العرض حتى على اللابتوب عشان ما يتمدد بشكل مزعج ويفضل نفس شكل الجوال! */
+    margin: 0 auto;   /* يسنتر القسم كله في نص الشاشة تماماً على أي جهاز */
+    height: 350px;    /* ارتفاع محدد لهذا القسم */
+}
+
+.dor {
+    position: absolute;
+    top: 320%;
+    left: 33%;
+     color: hsl(233, 52%, 9%);
+      font-family: "Aref Ruqaa", serif;
+    font-size: 100%;
+}
+.door {
+    position: absolute;
+    display: block;
+    filter: drop-shadow(0px 0px 13px #9c6c2c);
+    cursor: pointer;
+    top: 340%;
+    left: 13%;
+    width: 70%;
+}
+
+.door:hover {
+    filter: drop-shadow(0px 0px 5px #9c6c2c);
+    transition: 0.5s;
+}
+
+.door:active {
+    filter: none;
+}
